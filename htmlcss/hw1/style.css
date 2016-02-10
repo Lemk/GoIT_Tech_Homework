@@ -1,0 +1,45 @@
+
+hr{
+	width:440px;
+}
+img{
+	width:140px;
+	margin:auto;
+	
+}
+
+.All{
+	-webkit-box-shadow: 0 0 23px 0 rgba(0,0,0,0.75);
+	-moz-box-shadow: 0 0 23px 0 rgba(0,0,0,0.75);
+	box-shadow: 0 0 23px 0 rgba(0,0,0,0.75);
+	margin:auto;
+	width:513px;
+}
+
+p{
+	margin:0
+}
+.Name{
+	padding:50px 50px 0 50px;
+}
+.Mission{
+	padding:0 50px 0 50px;
+	height:100px;
+	margin:10px 0 10px 0;
+}
+.Contact{
+	padding:0 50px 0 50px;
+	height:100px;
+	margin:10px 0 10px 0;
+}
+.Feedback{
+	padding:0 50px 0 50px;
+	height:100px;
+	margin:10px 0 0 0;
+}
+.center{
+	text-align:center;
+}
+.down{
+	margin-bottom:10px;
+}
