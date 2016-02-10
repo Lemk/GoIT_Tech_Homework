@@ -1,0 +1,113 @@
+@font-face {
+  font-family: OpenSans;
+  src: url(../fonts/OpenSans.ttf);
+}
+
+
+.all{
+  width: 1060px;
+  margin: auto;
+  font-family: OpenSans;
+}
+header{
+  height: 210px
+}
+h1{
+  padding-top: 40px;
+}
+.logo{
+
+  font-size: 48;
+  font-weight: bold;
+  height: 130px
+}
+.menu{
+  height: 40px;
+  width: 966;
+  background-image: url(../img/menu.png);
+  background-repeat: repeat-x;
+}
+.itemMenu{
+  display: inline-block;
+  width: 120px;
+  color: white;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.itemMenu:hover{
+  height: 40px;
+  background-image: url(../img/hover1.png);
+  background-repeat: repeat-x;
+}
+
+.container{
+  width: 965px;
+  height: 600px;
+  font-size: 85%;
+}
+
+.left_menu{
+  width: 240px;
+  height: 240px;
+}
+
+
+li{
+  padding-top: 10px;
+  height: 30px;
+  border: 1px solid black;
+  padding-left: 25px;
+}
+
+li:hover{
+  font-weight: bold;
+  padding-left: 50px;
+}
+
+.content{
+  float: right;
+}
+
+.image{
+  width: 677px;
+  height: 400px;
+  background-image: url(../img/velo.png);
+  border: 1px solid black;
+  margin-bottom: 40px;
+}
+.worlds{
+    width: 677px;
+}
+
+p{
+  padding-left: 20px;
+}
+
+footer{
+  font-size: 85%;
+  height: 40px;
+  width: 966;
+  background-image: url(../img/footer_color.png);
+  background-repeat: repeat-x;
+}
+.itemfooter{
+  display: inline-block;
+  width: 120px;
+  color: black;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.itemfooteright{
+  display: inline-block;
+  width: 440px;
+  color: black;
+  text-align: right;
+  padding-top: 12px;
+}
+
+.itemfooter:hover{
+  height: 40px;
+  text-decoration: underline;
+}
