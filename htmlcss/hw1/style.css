@@ -1,45 +1,42 @@
 
-hr{
+hr {
 	width:440px;
 }
-img{
+img {
 	width:140px;
 	margin:auto;
-	
 }
-
-.All{
+.all {
 	-webkit-box-shadow: 0 0 23px 0 rgba(0,0,0,0.75);
 	-moz-box-shadow: 0 0 23px 0 rgba(0,0,0,0.75);
 	box-shadow: 0 0 23px 0 rgba(0,0,0,0.75);
 	margin:auto;
 	width:513px;
 }
-
-p{
-	margin:0
+p {
+	margin:0;
 }
-.Name{
+.name {
 	padding:50px 50px 0 50px;
 }
-.Mission{
+.mission {
 	padding:0 50px 0 50px;
 	height:100px;
 	margin:10px 0 10px 0;
 }
-.Contact{
+.contact {
 	padding:0 50px 0 50px;
 	height:100px;
 	margin:10px 0 10px 0;
 }
-.Feedback{
+.feedBack {
 	padding:0 50px 0 50px;
 	height:100px;
 	margin:10px 0 0 0;
 }
-.center{
+.center {
 	text-align:center;
 }
-.down{
+.down {
 	margin-bottom:10px;
 }
