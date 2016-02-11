@@ -2,96 +2,85 @@
   font-family: OpenSans;
   src: url(../fonts/OpenSans.ttf);
 }
-
-
-.all{
+.all {
   width: 1060px;
   margin: auto;
   font-family: OpenSans;
 }
-header{
-  height: 210px
+header {
+  height: 210px;
 }
-h1{
+h1 {
   padding-top: 40px;
+  font-size: 48px;
 }
-.logo{
-
-  font-size: 48;
+.logo {
   font-weight: bold;
-  height: 130px
+  height: 130px;
 }
-.menu{
+.menu {
   height: 40px;
   width: 966;
   background-image: url(../img/menu.png);
   background-repeat: repeat-x;
 }
-.itemMenu{
+.itemMenu {
   display: inline-block;
   width: 120px;
   color: white;
   text-align: center;
   padding-top: 12px;
 }
-
-.itemMenu:hover{
+.itemMenu:hover {
   height: 40px;
   background-image: url(../img/hover1.png);
   background-repeat: repeat-x;
 }
-
-.container{
+.container {
   width: 965px;
   height: 600px;
   font-size: 85%;
 }
-
-.left_menu{
+.left_menu {
   width: 240px;
   height: 240px;
 }
-
-
-li{
+li {
   padding-top: 10px;
   height: 30px;
   border: 1px solid black;
   padding-left: 25px;
 }
-
-li:hover{
+li:hover {
   font-weight: bold;
   padding-left: 50px;
 }
-
-.content{
+.content {
   float: right;
 }
-
-.image{
+.image {
   width: 677px;
   height: 400px;
   background-image: url(../img/velo.png);
   border: 1px solid black;
   margin-bottom: 40px;
 }
-.worlds{
+.worlds {
     width: 677px;
 }
 
-p{
+p {
   padding-left: 20px;
 }
 
-footer{
+footer {
   font-size: 85%;
   height: 40px;
   width: 966;
   background-image: url(../img/footer_color.png);
   background-repeat: repeat-x;
 }
-.itemfooter{
+.itemfooter {
   display: inline-block;
   width: 120px;
   color: black;
@@ -99,15 +88,14 @@ footer{
   padding-top: 12px;
 }
 
-.itemfooteright{
+.itemfooteright {
   display: inline-block;
   width: 440px;
   color: black;
   text-align: right;
   padding-top: 12px;
 }
-
-.itemfooter:hover{
+.itemfooter:hover {
   height: 40px;
   text-decoration: underline;
 }
