@@ -39,7 +39,7 @@ header {
 }
 
 .logo p {
-    font-size: 10.16px;
+    font-size: 10px;
     top: -8px;
     display: inline-block;
     margin-left: 80px;
@@ -62,12 +62,12 @@ header {
 }
 
 .contacts .us {
-    font-size: 10.16px;
+    font-size: 10px;
     margin: 2px 0 2px;
 }
 
 .contacts li {
-    font-size: 8.47px;
+    font-size: 8px;
 }
 
 .countries {
@@ -98,7 +98,7 @@ img {
 
 .countries ul li p {
     display: block;
-    font-size: 15.24px;
+    font-size: 15px;
     height: 21px;
     width: 256px;
     margin-top: 7px;
@@ -111,7 +111,7 @@ img {
 
 footer {
     clear: both;
-    font-size: 10.16px;
+    font-size: 10px;
     text-align: center;
     margin-top: 170px;
 }
