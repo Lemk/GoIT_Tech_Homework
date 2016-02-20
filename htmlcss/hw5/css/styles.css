@@ -1,0 +1,285 @@
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url(../fonts/helveticaneuecyr-light.otf);
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+body {
+    background-color: black;
+}
+
+.separate {
+    background-image: url(../img/separate.png);
+    background-repeat: no-repeat;
+    float: left;
+    width: 9px;
+    height: 36px;
+    margin: 0 10px 0 10px;
+}
+
+.flag {
+    background-image: url(../img/flag.png);
+    background-repeat: no-repeat;
+    float: left;
+    width: 26px;
+    height: 36px;
+}
+
+.menu {
+    float: left;
+    height: 36px;
+}
+
+.menu li {
+    /*color:white;*/
+    color: #60b5ed;
+    display: inline-block;
+    float: left;
+
+    height: 36px;
+
+}
+
+.menu li:hover {
+    background-color: #4eabda;
+    height: 36px;
+    color: white;
+}
+
+.menu li a {
+    color: #60b5ed;
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+    height: 26px;
+    width: inherit;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.menu li a:hover {
+    color: white;
+    height: 36px;
+}
+
+.all {
+    width: 1214px;
+    height: 1062px;
+    margin: 0 auto;
+    font-family: "Helvetica Neue", Tahoma, sans-serif;
+}
+
+header {
+    height: 36px;
+    background-image: url(../img/headerBackground.png);
+    color: white;
+    font-size: 14px;
+    padding-left: 480px;
+}
+
+.minhas {
+    display: inline-block;
+    float: left;
+    margin: 10px 20px 10px 10px;
+
+    /*width: 155px;*/
+    /*height: 36px;*/
+}
+
+.rightUpBlock {
+    width: 189px;
+
+    float: left;
+    background-image: url(../img/rightUpBlock.png);
+    background-repeat: no-repeat;
+    height: 36px;
+}
+
+.rightUpBlock p {
+    margin-left: 14px;
+    margin-top: 10px;
+}
+
+.rightUpBlock p a {
+    color: white;
+}
+
+.content {
+    background-image: url(../img/background2.png);
+    background-repeat: no-repeat;
+    width: 1214px;
+    height: 1027px;
+    padding-top: 213px;
+}
+
+.upBlock {
+    margin: 0 auto;
+    top: 213px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 560px;
+    height: 62px;
+
+}
+
+.upBlock p {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    vertical-align: top;
+
+}
+
+.form {
+    margin: 3px auto;
+    width: 560px;
+    height: 549px;
+    background-color: rgba(0, 0, 0, 0.6);
+    /*clear: both;*/
+    padding-top: 36px;
+    z-index: 100;
+}
+
+.logInFacebook {
+    background-image: url(../img/logInFacebook2.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 34px;
+    width: 272px;
+}
+
+.logInFacebook a {
+    height: 34px;
+    display: inline-block;
+    color: white;
+    font-weight: 900;
+    padding-left: 70px;
+    padding-top: 9px;
+    text-decoration: none;
+}
+
+.logInFacebook a:hover {
+    text-decoration: underline;
+}
+
+.logInFacebook a p {
+    display: inline-block;
+    width: 35px;
+    margin-left: 5px;
+    font-weight: normal;
+}
+
+.ou {
+    width: 272px;
+    margin: 37px auto 0;
+    color: #8e8e8e;
+}
+
+.ou .line {
+    height: 2px;
+    width: 272px;
+    background-image: url(../img/ou.png);
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.ou p {
+    float: left;
+    padding-left: 128px;
+    margin-top: -7px;
+}
+
+.action {
+    height: 350px;
+    width: 276px;
+    margin: 24px auto 22px;
+    font-family: "Helvetica Neue", Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.action input {
+    height: 35px;
+    width: 256px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    border: 0;
+    border-bottom: 1px solid #484948;
+    font-family: "Helvetica Neue", Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    z-index: 10;
+
+}
+
+.action input:hover {
+    height: 35px;
+    width: 256px;
+    background-image: url(../img/hoverText.png);
+    border-bottom: 1px solid #6698cb;
+    box-shadow: 0 0 16px 0 rgba(102, 152, 203, 1);
+    z-index: 10;
+}
+
+#tips {
+    float: left;
+    height: 13px;
+    width: 13px;
+    background-color: green;
+}
+
+.action label {
+    float: left;
+    padding-top: 3px;
+    width: 240px;
+
+    font-weight: normal;
+    margin-bottom: 25px;
+    color: white;
+    letter-spacing: 0.6px;
+}
+
+.action button {
+    height: 37px;
+    width: 151px;
+    border: 0;
+    background-image: url(../img/submitButton.png);
+    background-repeat: repeat;
+    opacity: 1;
+}
+
+.action .btnSubmit {
+    height: 37px;
+    clear: both;
+    padding: 0 58px 0;
+}
+
+.action .btnSubmit button {
+    display: inline-block;
+    margin: 0 auto;
+    height: 35px;
+    width: 151px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    font-family: "Helvetica Neue", Tahoma, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+}
+
+.form p {
+    color: white;
+    font-family: "Helvetica Neue", Tahoma, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.6px;
+    text-align: center;
+    padding-top: 6px;
+}
