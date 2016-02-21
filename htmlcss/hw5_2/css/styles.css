@@ -1,0 +1,56 @@
+table {
+    margin: 20px;
+}
+
+td {
+    border: 10px solid #202020;
+    -moz-border-image: url(../img/black.png) 10 round round;
+    -webkit-border-image: url(../img/black.png) 10 round round;
+    -o-border-image: url(../img/black.png) 10 round round;
+    border-image: url(../img/black.png) 10 round round;
+    width: 62px;
+}
+
+tr {
+    height: 70px;
+}
+
+.up {
+    border-top: none;
+}
+
+.left {
+    border-left: none;
+}
+
+.right {
+    border-right: none;
+}
+
+.bottom {
+    border-bottom: none;
+}
+
+.black {
+    background-image: url(../img/black.png);
+    background-repeat: round;
+}
+
+.red {
+    background-image: url(../img/red.png);
+    background-repeat: round;
+}
+
+.yellow {
+    background-image: url(../img/yellow.png);
+    background-repeat: round;
+}
+
+.blue {
+    background-image: url(../img/blue.png);
+    background-repeat: round;
+}
+
+.dh {
+    width: 130px;
+}
