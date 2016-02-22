@@ -36,13 +36,10 @@ body {
 }
 
 .menu li {
-    /*color:white;*/
     color: #60b5ed;
     display: inline-block;
     float: left;
-
     height: 36px;
-
 }
 
 .menu li:hover {
@@ -61,7 +58,6 @@ body {
     text-decoration: none;
     padding-left: 10px;
     padding-right: 10px;
-
 }
 
 .menu li a:hover {
@@ -88,14 +84,10 @@ header {
     display: inline-block;
     float: left;
     margin: 10px 20px 10px 10px;
-
-    /*width: 155px;*/
-    /*height: 36px;*/
 }
 
 .rightUpBlock {
     width: 189px;
-
     float: left;
     background-image: url(../img/rightUpBlock.png);
     background-repeat: no-repeat;
@@ -125,7 +117,6 @@ header {
     background-color: rgba(0, 0, 0, 0.6);
     width: 560px;
     height: 62px;
-
 }
 
 .upBlock p {
@@ -134,7 +125,6 @@ header {
     text-align: center;
     padding-top: 18px;
     vertical-align: top;
-
 }
 
 .form {
@@ -142,7 +132,6 @@ header {
     width: 560px;
     height: 549px;
     background-color: rgba(0, 0, 0, 0.6);
-    /*clear: both;*/
     padding-top: 36px;
     z-index: 100;
 }
@@ -156,12 +145,11 @@ header {
 }
 
 .logInFacebook a {
-    height: 34px;
     display: inline-block;
     color: white;
     font-weight: 900;
     padding-left: 70px;
-    padding-top: 9px;
+    padding-top: 4px;
     text-decoration: none;
 }
 
@@ -172,28 +160,30 @@ header {
 .logInFacebook a p {
     display: inline-block;
     width: 35px;
-    margin-left: 5px;
+    margin-left: 2px;
     font-weight: normal;
+    font-size: 14px;
 }
 
 .ou {
     width: 272px;
     margin: 37px auto 0;
-    color: #8e8e8e;
 }
 
 .ou .line {
     height: 2px;
     width: 272px;
-    background-image: url(../img/ou.png);
+    background-image: url(../img/OU.png);
     background-repeat: no-repeat;
     float: left;
 }
 
-.ou p {
+.form .ou p {
     float: left;
-    padding-left: 128px;
-    margin-top: -7px;
+    padding-left: 129px;
+    margin-top: -13px;
+    color: #999999;
+    font-size: 13px;
 }
 
 .action {
@@ -209,7 +199,7 @@ header {
     width: 256px;
     background-color: black;
     color: white;
-    padding-left: 20px;
+    padding: 0 0 0 20px;
     border: 0;
     border-bottom: 1px solid #484948;
     font-family: "Helvetica Neue", Tahoma, sans-serif;
@@ -217,7 +207,6 @@ header {
     font-weight: bold;
     margin-bottom: 16px;
     z-index: 10;
-
 }
 
 .action input:hover {
@@ -233,14 +222,12 @@ header {
     float: left;
     height: 13px;
     width: 13px;
-    background-color: green;
 }
 
 .action label {
     float: left;
     padding-top: 3px;
     width: 240px;
-
     font-weight: normal;
     margin-bottom: 25px;
     color: white;
