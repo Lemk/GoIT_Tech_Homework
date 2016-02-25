@@ -1,0 +1,1219 @@
+@font-face {
+    font-family: "Lusida Sans Unicode";
+    src: url(../fonts/lsansuni.ttf);
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+body {
+    background-color: white;
+}
+
+.all {
+    height: 1308px;
+    width: 912px;
+    margin: 0 auto;
+    padding-top: 16px;
+
+}
+
+header {
+    height: 27px;
+    clear: both;
+}
+
+.phoneCapture {
+    background-image: url(../img/telBack.png);
+    background-repeat: no-repeat;
+    height: 27px;
+    width: 26px;
+    float: left;
+}
+
+header p {
+    display: inline-block;
+    float: left;
+    font-family: Arial sans;
+    font-size: 20.68px;
+    color: #5E696D;
+    padding-top: 5px;
+}
+
+header .reg {
+    margin-left: 17px;
+    width: 495px;
+    height: 25px;
+    float: left;
+    background-image: url(../img/formReg.png);
+    background-repeat: no-repeat;
+    box-shadow: 0 0 3px 0 rgba(14, 57, 94, 1);
+}
+
+.leftLogin {
+    background-image: url(../img/leftLogin.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 25px;
+    float: left;
+    margin-left: 7px;
+}
+
+.reg input {
+    border: 0px;
+    height: 14px;
+    width: 108px;
+    margin: 4px 7px 0 1px;
+    font-family: "Lucida Sans Unicode";
+    font-size: 11px;
+    float: left;
+    box-shadow: 0 0 6px 0 rgba(27, 94, 24, 1);
+    border-radius: 1px;
+    padding-left: 4px;
+}
+
+.reg button {
+    float: left;
+    color: white;
+    width: 34px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "Lusida sans unicode";
+    font-size: 10.91px;
+    padding-top: 3px;
+    margin-left: -5px;
+}
+
+.separLine {
+    background-image: url(../img/separLine.png);
+    background-repeat: no-repeat;
+    width: 6px;
+    height: 27px;
+    float: left;
+    margin-right: 1px;
+}
+
+header form a {
+    font-family: "Lusida sans unicode";
+    font-size: 12px;
+    float: left;
+    padding-top: 7px;
+    color: white;
+    margin-left: 60px;
+}
+
+header ul {
+    float: left;
+    border: 1px solid #c1c8cb;
+    border-radius: 17px;
+    height: 20px;
+    margin-top: 1px;
+    margin-left: 16px;
+    width: 75px;
+    box-shadow: 0 0 7px 0 rgba(193, 200, 203, 1);
+
+}
+
+header ul li {
+    float: left;
+    margin-top: 4px;
+    margin-left: 9px;
+    width: 11px;
+}
+
+.home {
+    background-image: url(../img/home.png);
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 13px;
+    float: left;
+}
+
+.map {
+    background-image: url(../img/map.png);
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 13px;
+    float: left;
+}
+
+.email {
+    display: block;
+    background-image: url(../img/email.png);
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 27px;
+    float: left;
+    margin-left: 2px;
+    margin-top: 1px;
+}
+
+.logo {
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    width: 909px;
+    height: 237px;
+    margin: 9px -5px;
+}
+
+nav {
+    background-image: url(../img/menuBack.png);
+    background-repeat: no-repeat;
+    width: 914px;
+    height: 36px;
+    margin-left: -7px;
+    margin-top: -4px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    margin-left: 136px;
+    font-family: "Lusida sans unicode";
+    font-size: 13.64px;
+    margin-top: 0px;
+    color: #b1bcc0;
+    display: block;
+    height: 34px;
+    width: 549px;
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    display: block;
+    height: 12px;
+}
+
+nav ul li a {
+    color: #b1bcc0;
+    text-decoration: none;
+    height: 12px;
+    display: block;
+    padding: 12px;
+}
+
+nav ul li a:hover {
+    color: white;
+    background: linear-gradient(to top, #0c3357, #1f6787);
+    display: block;
+    border-radius: 15px;
+    margin-top: 4px;
+    padding: 8px 12px 8px 12px;
+}
+
+.menu2 {
+    padding-right: 7px;
+    float: left;
+}
+
+.menu3 {
+    padding-right: 1px;
+    float: left;
+}
+
+.sell {
+    background-image: url(../img/korzina.png);
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 17px;
+    float: left;
+    margin-top: 11px;
+}
+
+nav p {
+    display: block;
+    float: left;
+    font-family: Arial;
+    font-size: 11px;
+    color: #b1bcc0;
+    margin-left: 6px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.blueText {
+    color: #0d5a8f;
+    font-family: Arial;
+    font-size: 13px;
+    margin-left: 1px;
+    margin-right: 9px;
+}
+
+.blueTextEnd {
+    color: #0d5a8f;
+    font-family: "Arial";
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.shad {
+    box-shadow: 0 0 7px 0 rgba(153, 153, 153, 1);;
+}
+
+.findAvto {
+    width: 412px;
+    height: 135px;
+    float: left;
+    border: 1px solid #c1c8cb;
+    border-radius: 17px;
+}
+
+.findShin {
+    width: 192px;
+    height: 134px;
+    float: left;
+    border: 1px solid #c1c8cb;
+    border-radius: 17px;
+    margin-left: 14px;
+}
+
+.leftAvto {
+    float: left;
+    width: 72px;
+    height: 83px;
+    padding: 7px 0 0 16px;
+    font-family: "Arial", serif;
+    font-size: 9px;
+    font-weight: 900;
+}
+
+.leftAvto ul {
+    float: left;
+}
+
+.leftAvto ul li {
+    height: 19px;
+    width: 80px;
+    display: block;
+    font-family: "Arial", serif;
+    font-size: 8px;
+}
+
+.line1 p {
+    margin-top: 6px;
+}
+
+.line1 p span {
+    font-weight: 100;
+}
+
+.line2 p {
+    margin-top: -4px;
+}
+
+.line2 span {
+    font-weight: 100;
+}
+
+.line3 p {
+    margin-top: 1px;
+}
+
+.line3 span {
+    font-weight: 100;
+}
+
+.line4 p {
+    margin-top: 7px;
+}
+
+.select1 {
+    height: 94px;
+    width: 106px;
+    float: left;
+}
+
+.select1 ul li {
+    margin-left: 4px;
+    margin-top: 3.6px;
+}
+
+.select1 ul li select {
+    height: 18px;
+    width: 103px;
+    border-top: 2px solid #9f9f9f;
+    border-left: 2px solid #9f9f9f;
+}
+
+.select1 ul li .short {
+    width: 59px;
+}
+
+.lm {
+    margin-left: 11px;
+    margin-top: -2px;
+}
+
+.select1 ul .correct {
+    margin-top: 1.5px;
+}
+
+.leftText {
+    font-family: "Arial", serif;
+    font-size: 10px;
+    float: left;
+    color: #154468;
+    margin-top: 6px;
+    margin-left: 20px;
+    font-weight: 900;
+}
+
+.rightText {
+    font-family: "Arial", serif;
+    font-size: 10px;
+    float: left;
+    color: #154468;
+    margin-top: 4px;
+    margin-left: 71px;
+    font-weight: 900;
+
+}
+
+.centerText {
+    font-family: "Arial", serif;
+    font-size: 12.55px;
+    float: left;
+    color: #154468;
+    margin-top: 2px;
+    margin-left: 66px;
+    font-weight: 900;
+}
+
+.findAvto a {
+    clear: both;
+    display: block;
+    font-family: "Arial", serif;
+    font-size: 14px;
+    color: #154467;
+    font-style: italic;
+    height: 16px;
+    width: 48px;
+    margin-left: 342px;
+}
+
+.findShin p {
+    font-family: "Arial", serif;
+    font-size: 12.55px;
+    float: left;
+    color: #154468;
+    margin-top: 3px;
+    margin-left: 8px;
+    font-weight: 900;
+    clear: both;
+    width: 176px;
+    margin-bottom: 7px;
+}
+
+.leftShin {
+    float: left;
+    height: 88px;
+    width: 59px;
+}
+
+.leftShin p {
+    font-family: "Arial", serif;
+    font-size: 9.5px;
+    text-align: right;
+    display: block;
+    width: 44px;
+    color: black;
+}
+
+.leftShin .size {
+    padding-top: 6px;
+}
+
+.rightShin {
+    float: left;
+    height: 86px;
+    width: 118px;
+}
+
+.bord {
+    border-top: 2px solid #9f9f9f;
+    border-left: 2px solid #9f9f9f;
+}
+
+.rightShin .size1 {
+    float: left;
+    height: 17px;
+    width: 51px;
+}
+
+.rightShin .size2 {
+    float: right;
+    height: 17px;
+    width: 51px;
+}
+
+.rightShin .sizeR {
+    height: 17px;
+    width: 45px;
+    margin-top: 7px;
+}
+
+.rightShin .sep {
+    display: block;
+    height: 17px;
+    width: 5px;
+    float: left;
+    padding: 0 3px 0 6px;
+}
+
+.rightShin ul li {
+    font-family: "Arial", serif;
+    font-size: 10px;
+    margin-top: 3px;
+    color: black;
+    font-weight: 800;
+}
+
+.myCheckBox input {
+    display: none;
+}
+
+.myCheckBox {
+    margin-right: 1px;
+}
+
+.myCheckBox span:before {
+    content: ' ';
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: url(../img/checkbox.png);
+    background-repeat: no-repeat;
+}
+
+.myCheckBox input:checked + span:before {
+    background: url(../img/checkboxOn.png);
+}
+
+.push {
+    clear: both;
+    display: block;
+    font-family: "Arial", serif;
+    font-size: 14px;
+    color: #154467;
+    font-style: italic;
+    height: 16px;
+    width: 48px;
+    margin-left: 123px;
+}
+
+.findDisk {
+    width: 268px;
+    height: 133px;
+    float: left;
+    border: 1px solid #c1c8cb;
+    border-radius: 17px;
+    margin-left: 9px;
+}
+
+.diskName {
+    font-family: "Arial", serif;
+    font-size: 12.55px;
+    float: left;
+    color: #154468;
+    margin-top: 3px;
+    margin-left: 8px;
+    font-weight: 900;
+    clear: both;
+    width: 160px;
+    letter-spacing: 0.5px;
+    display: block;
+}
+
+.leftDisk {
+    width: 91px;
+    padding-left: 16px;
+    height: 91px;
+    font-family: "Arial", serif;
+    font-size: 9.5px;
+    display: block;
+    float: left;
+}
+
+.leftDisk .line1 {
+    height: 16px;
+    display: block;
+}
+
+.leftDisk .line1 p {
+    padding-top: 4px;
+    letter-spacing: 0.5px;
+    display: block;
+}
+
+.leftDisk .line2 {
+    height: 28px;
+    padding-top: 3px;
+    display: block;
+}
+
+.leftDisk .line2 p {
+    letter-spacing: 0.3px;
+    display: block;
+    padding-top: 4px;
+}
+
+.line3 {
+    height: 42px;
+    padding-top: 2px;
+    display: block;
+}
+
+.leftDisk p {
+    display: block;
+    font-weight: 900;
+}
+
+.centerDisk {
+    display: block;
+    height: 91px;
+    width: 68px;
+    float: left;
+    padding-top: 5px;
+}
+
+.centerDisk select {
+    height: 18px;
+    width: 58px;
+    border-top: 2px solid #9f9f9f;
+    border-left: 2px solid #9f9f9f;
+}
+
+.centerDisk .sel2 {
+    width: 51px;
+    margin-top: 12px;
+}
+
+.centerDisk .sel3 {
+    width: 59px;
+    margin-top: 12px;
+}
+
+.separDisk {
+    background-image: url(../img/separDisk.png);
+    background-repeat: no-repeat;
+    float: left;
+    height: 108px;
+    width: 2px;
+    margin-top: -12px;
+}
+
+.rightDisk {
+    height: 99px;
+    width: 67px;
+    float: left;
+    margin-top: -9px;
+    margin-left: 11px;
+    font-family: "Arial", serif;
+}
+
+.DCO {
+    display: block;
+    font-weight: 900;
+    font-size: 8px;
+    letter-spacing: 0.1px;
+}
+
+.DCO span {
+    font-weight: 100;
+}
+
+.DCOSelect {
+    height: 18px;
+    width: 58px;
+    border-top: 2px solid #9f9f9f;
+    border-left: 2px solid #9f9f9f;
+    margin-top: 4px;
+}
+
+.ET {
+    display: block;
+    font-weight: 900;
+    font-size: 8px;
+    letter-spacing: 0.2px;
+    margin-top: 6px;
+}
+
+.ET span {
+    font-weight: 100;
+}
+
+.pushDisk {
+    clear: both;
+    display: block;
+    font-family: "Arial", serif;
+    font-size: 14px;
+    color: #154467;
+    font-style: italic;
+    height: 14px;
+    width: 48px;
+    margin-left: 198px;
+}
+
+.filter {
+    margin-bottom: 16px;
+}
+
+.leftPanel {
+    height: 628px;
+    width: 185px;
+    float: left;
+}
+
+.katalog {
+    height: 25px;
+    width: 179px;
+    border: 1px solid #79878d;
+    border-radius: 29px;
+    margin-top: 2px;
+    margin-left: -5px;
+    margin-bottom: 12px;
+}
+
+.katalog div {
+    background-image: url(../img/catalog.png);
+    background-repeat: no-repeat;
+    height: 21px;
+    width: 22px;
+    float: left;
+    margin: 2px 0 0 1px;
+}
+
+.katalog p {
+    font-family: "Lusida sans unicode";
+    font-size: 12.73px;
+    color: #114165;
+    margin-top: 6px;
+    display: block;
+    margin-left: 26px;
+}
+
+.rubrika {
+    height: 27px;
+    width: 149px;
+    border: 1px solid #79878d;
+    border-radius: 29px;
+    margin-top: 0px;
+    margin-left: -5px;
+    margin-bottom: 6px;
+}
+
+.rubrika div {
+    background-image: url(../img/rubrika.png);
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 23px;
+    float: left;
+    margin: 2px 0 0 5px;
+}
+
+.rubrika p {
+    font-family: "Lusida sans unicode";
+    font-size: 14px;
+    color: #114165;
+    margin-top: 8px;
+    display: block;
+    margin-left: 29px;
+}
+
+.rubMenu {
+    display: block;
+    width: 132px;
+    height: 93px;
+    margin-left: 31px;
+}
+
+.rubMenu li {
+    display: block;
+    width: 132px;
+    height: 26px;
+}
+
+.rubMenu div {
+    background-image: url(../img/point.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 8px;
+    height: 8px;
+    float: left;
+    margin-top: 2px;
+}
+
+.rubMenu a {
+    text-decoration: none;
+    font-family: "Lusida sans unicode";
+    font-size: 12.73px;
+    display: block;
+    float: left;
+    margin-left: 3px;
+    color: #114165;
+}
+
+.rubMenu a:hover {
+    font-family: "Arial";
+    font-size: 14px;
+    display: block;
+    float: left;
+    margin-left: 3px;
+    color: #114165;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.centerPanel {
+    background-image: url(../img/backCenter.png);
+    background-repeat: repeat-x;
+    width: 526px;
+    height: 625px;
+    float: left;
+}
+
+.rightPanel {
+    width: 193px;
+    height: 624px;
+    float: left;
+}
+
+.rightPanel .katalog {
+    height: 25px;
+    width: 181px;
+    border: 1px solid #79878d;
+    border-radius: 29px;
+    margin-top: -1px;
+    margin-left: 9px;
+    margin-bottom: 14px;
+}
+
+.rightPanel .katalog div {
+    background-image: url(../img/catalog.png);
+    background-repeat: no-repeat;
+    height: 21px;
+    width: 22px;
+    float: left;
+    margin: 1px 0 0 4px;
+}
+
+.rightPanel .katalog p {
+    font-family: "Lusida sans unicode";
+    font-size: 12.73px;
+    color: #114165;
+    margin-top: 6px;
+    display: block;
+    margin-left: 31px;
+    letter-spacing: 1px;
+}
+
+.rightPanel .rubrika {
+    height: 27px;
+    width: 135px;
+    border: 1px solid #79878d;
+    border-radius: 13px;
+    margin-top: 1px;
+    margin-left: 24px;
+    margin-bottom: 6px;
+}
+
+.rightPanel .rubrika div {
+    background-image: url(../img/rubrika.png);
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 25px;
+    float: left;
+    margin: 2px 0 0 3px;
+}
+
+.rightPanel .rubrika p {
+    font-family: "Lusida sans unicode";
+    font-size: 14px;
+    color: #114165;
+    margin-top: 8px;
+    display: block;
+    margin-left: 30px;
+}
+
+.myCheckBoxRight input {
+    display: none;
+}
+
+.myCheckBoxRight {
+    margin-left: 35px;
+}
+
+.myCheckBoxRight span {
+    color: #114165;
+    font-family: "Lusida sans unicode";
+    font-size: 12.73px;
+}
+
+.myCheckBoxRight span:before {
+    content: ' ';
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: url(../img/leftPanelCheck.png);
+    background-repeat: no-repeat;
+    margin-right: 14px;
+}
+
+.myCheckBoxRight input:checked + span:before {
+    background: url(../img/leftPanelCheckOn.png);
+}
+
+.rightPanel li {
+    margin-bottom: 9px;
+}
+
+.rightDisks {
+    padding-bottom: 4px;
+}
+
+.rightPanel button {
+    height: 28px;
+    width: 82px;
+    border: 0;
+    background: url(../img/btn.png);
+    background-repeat: no-repeat;
+    font-family: Arial;
+    font-size: 11px;
+    color: white;
+    margin-left: 33px;
+    margin-top: 11px;
+    letter-spacing: 0.8px;
+}
+
+.rightPanel:after {
+    clear: both;
+}
+
+.centerPanel figure {
+    height: 626px;
+    width: 140px;
+    margin-left: 23px;
+    float: left;
+}
+
+.centerPanel figure div {
+    height: 177px;
+    width: 140px;
+    margin-top: 12px;
+    letter-spacing: 0.1px;
+    clear: both;
+}
+
+.centerPanel figure div .firma {
+    height: 15px;
+    width: 102px;
+    font-family: "Lusida sans unicode";
+    font-size: 14.59px;
+    display: block;
+    color: #206988;
+    margin-left: 33px;
+}
+
+.centerPanel figure div .tovar1 {
+    height: 130px;
+    width: 140px;
+    margin-top: -2px;
+    letter-spacing: 0.1px;
+    background: url(../img/goodyear.png);
+    background-repeat: no-repeat;
+}
+
+.centerPanel figure div .name {
+    height: 15px;
+    width: 139px;
+    font-family: "Lusida sans unicode";
+    font-size: 12.77px;
+    display: block;
+    color: #494e50;
+    margin-left: 14px;
+}
+
+.centerPanel figure div .cost {
+    height: 16px;
+    width: 46px;
+    font-family: "Arial";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    display: block;
+    color: #114165;
+    margin-left: 39px;
+    margin-top: 4px;
+    float: left;
+}
+
+.centerPanel figure div span {
+    font-family: "Arial";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 14px;
+    display: block;
+    color: #114165;
+    margin-top: 5px;
+}
+
+.centerPanel figure .t2 {
+    margin-top: 25px;
+}
+
+.centerPanel figure .t3 {
+    margin-top: 25px;
+}
+
+/*======================*/
+.centerPanel .f2 {
+    height: 626px;
+    width: 140px;
+    margin-left: 27px;
+    float: left;
+}
+
+.centerPanel .f2 div {
+    height: 177px;
+    width: 140px;
+    margin-top: 12px;
+    letter-spacing: 0.1px;
+    clear: both;
+}
+
+.centerPanel .f2 div .firma {
+    height: 15px;
+    width: 53px;
+    font-family: "Lusida sans unicode";
+    font-size: 14.59px;
+    display: block;
+    color: #206988;
+    margin-left: 47px;
+}
+
+.centerPanel .f2 div .tovar1 {
+    height: 130px;
+    width: 140px;
+    margin-top: -2px;
+    letter-spacing: 0.1px;
+    background: url(../img/nokian.png);
+    background-repeat: no-repeat;
+}
+
+.centerPanel .f2 div .name {
+    height: 15px;
+    width: 105px;
+    font-family: "Lusida sans unicode";
+    font-size: 12.77px;
+    display: block;
+    color: #494e50;
+    margin-left: 25px;
+}
+
+.centerPanel .f2 div .cost {
+    height: 16px;
+    width: 46px;
+    font-family: "Arial";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    display: block;
+    color: #114165;
+    margin-left: 36px;
+    margin-top: 4px;
+    float: left;
+    margin-right: 9px;
+}
+
+.centerPanel .f2 div span {
+    font-family: "Arial";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 14px;
+    display: block;
+    color: #114165;
+    margin-top: 5px;
+}
+
+.centerPanel .f2 .t2 {
+    margin-top: 25px;
+}
+
+.centerPanel .f2 .t3 {
+    margin-top: 25px;
+}
+
+/*===============================*/
+
+.centerPanel .f3 {
+    height: 626px;
+    width: 140px;
+    margin-left: 28px;
+    float: left;
+}
+
+.centerPanel .f3 div {
+    height: 177px;
+    width: 140px;
+    margin-top: 12px;
+    letter-spacing: 0.1px;
+    clear: both;
+}
+
+.centerPanel .f3 div .firma {
+    height: 15px;
+    width: 53px;
+    font-family: "Lusida sans unicode";
+    font-size: 14.59px;
+    display: block;
+    color: #206988;
+    margin-left: 40px;
+}
+
+.centerPanel .f3 div .tovar1 {
+    height: 130px;
+    width: 140px;
+    margin-top: -2px;
+    letter-spacing: 0.1px;
+    background: url(../img/hankook.png);
+    background-repeat: no-repeat;
+}
+
+.centerPanel .f3 div .name {
+    height: 15px;
+    width: 118px;
+    font-family: "Lusida sans unicode";
+    font-size: 12.77px;
+    display: block;
+    color: #494e50;
+    margin-left: 11px;
+}
+
+.centerPanel .f3 div .cost {
+    height: 16px;
+    width: 46px;
+    font-family: "Arial";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    display: block;
+    color: #114165;
+    margin-left: 36px;
+    margin-top: 4px;
+    float: left;
+    margin-right: 9px;
+}
+
+.centerPanel .f3 div span {
+    font-family: "Arial";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 14px;
+    display: block;
+    color: #114165;
+    margin-top: 5px;
+}
+
+.centerPanel .f3 .t2 {
+    margin-top: 25px;
+}
+
+.centerPanel .f3 .t3 {
+    margin-top: 25px;
+}
+
+/*=====================================*/
+footer {
+    height: 190px;
+    width: 910px;
+
+}
+
+footer .fmenu {
+    background-color: #213A4D;
+    height: 100px;
+    width: 910px;
+    margin-left: -5px;
+}
+
+footer .fmenu ul {
+    margin-left: 309px;
+    font-family: "Arial";
+    font-size: 12px;
+    color: #b1bcc0;
+    display: block;
+    height: 29px;
+    width: 567px;
+    float: left;
+    margin-top: 11px;
+}
+
+footer .fmenu li {
+    float: left;
+    display: block;
+    height: 12px;
+}
+
+footer .fmenu .menu2 {
+    float: left;
+    display: block;
+    height: 12px;
+    margin-left: 10px;
+    padding-right: 2px;
+}
+
+footer .fmenu .menu3 {
+    float: left;
+    display: block;
+    height: 12px;
+    margin-left: 9px;
+    margin-right: -4px;
+}
+
+footer .fmenu .menu4 {
+    float: left;
+    display: block;
+    height: 12px;
+    margin-left: 15px;
+}
+
+footer .fmenu ul li a {
+    color: #b1bcc0;
+    text-decoration: none;
+    height: 12px;
+    display: block;
+    float: left;
+}
+
+footer .fmenu ul li a:hover {
+    color: #52ABCB;
+}
+
+.separLine2 {
+    width: 6px;
+    height: 17px;
+    background: url(../img/separLine2.png);
+    background-repeat: no-repeat;
+    margin-left: 12px;
+    margin-top: -1px;
+}
+
+.allRight {
+    font-family: "Arial";
+    font-size: 10.5px;
+    color: #7F4740;
+    text-align: center;
+}
+
+footer .brands {
+    width: 910px;
+    height: 89px;
+    background: url(../img/brands.png);
+    background-repeat: no-repeat;
+    margin-top: 642px;
+    margin-left: -6px;
+}
