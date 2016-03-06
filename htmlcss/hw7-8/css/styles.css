@@ -83,7 +83,7 @@ header {
     margin-top: 4px;
 }
 
-.menu2 {
+.menu-dropdown {
     display: none;
 }
 
@@ -96,32 +96,26 @@ header {
     padding: 2px 0 0 0px;
 }
 
-.menu__linehover :hover {
-    border-bottom: 2px solid #edbfff;
-
-}
-
 .menu__box {
     width: 688px;
     padding: 2px 22px 0 174px;
     height: 29px;
 }
 
-.menu__li {
+.menu__item {
     display: inline-block;
     float: left;
     height: 25px;
 }
 
-.menu__a {
+.menu__url {
     margin: 0 51px 0 0px;
     color: white;
     text-shadow: 2px 2px 4px #000000;
     text-decoration: none;
 }
 
-.menu__a:hover {
-    /*text-decoration: underline;*/
+.menu__url:hover {
     border-bottom: 2px solid #edbfff;
 }
 
@@ -605,7 +599,7 @@ ul, li {
     width: 69%;
 }
 
-.footer__a {
+.footer__url {
     margin: 0 43px 0 0;
 }
 
@@ -759,12 +753,10 @@ ul, li {
     }
 
     .about__url {
-        margin-left: 312px;
         margin-left: 153px;
     }
 
     .about__url:hover {
-        margin-left: 312px;
         margin-left: 153px;
     }
 
@@ -808,6 +800,7 @@ ul, li {
         overflow: hidden;
         height: 53px;
         margin-top: 13px;
+        width: 320px;
     }
 
     .upd__str1 {
@@ -885,13 +878,13 @@ ul, li {
         display: none;
     }
 
-    .menu__li {
+    .menu__item {
         display: inline-block;
         float: left;
         height: 25px;
     }
 
-    .footer__a {
+    .footer__url {
         margin: 0 24px 0 0;
     }
 
@@ -899,7 +892,7 @@ ul, li {
         margin: 113px 87px 0 0;
     }
 
-    .menu2 {
+    .menu-dropdown {
         display: none;
     }
 
@@ -1072,6 +1065,7 @@ ul, li {
     .upd__grp {
         overflow: hidden;
         height: 51px;
+        width: 480px;
     }
 
     .upd__str2 {
@@ -1153,7 +1147,6 @@ ul, li {
     }
 
     .menu {
-        /*display: none;*/
         margin-left: 9999px;
     }
 
@@ -1162,13 +1155,13 @@ ul, li {
         width: 100%;
     }
 
-    .menu__li {
+    .menu__item {
         display: inline-block;
         float: left;
         height: 25px;
     }
 
-    .footer__a {
+    .footer__url {
         margin: 0 24px 0 0;
     }
 
@@ -1176,7 +1169,7 @@ ul, li {
         margin: 2px 168px 0 0;
     }
 
-    .menu2 {
+    .menu-dropdown {
         font-family: LeagueGothicRegular;
         font-size: 24px;
         width: 246px;
@@ -1190,13 +1183,11 @@ ul, li {
         box-sizing: border-box;
     }
 
-    .menu2__box {
-        /*width: 627px;
-        padding: 2px 22px 0 174px;
-        height: 29px;*/
+    .menu-dropdown__box {
+
     }
 
-    .menu2__li {
+    .menu-dropdown__li {
         display: inline-block;
         height: 46px;
         width: 100%;
@@ -1207,7 +1198,7 @@ ul, li {
         background-color: rgba(60, 48, 69, 0.8);
     }
 
-    .menu2__a {
+    .menu-dropdown__a {
         padding-top: 5px;
         color: white;
         text-shadow: 2px 2px 4px #000000;
@@ -1218,98 +1209,98 @@ ul, li {
         height: 23px;
     }
 
-    .menu2__a:hover {
+    .menu-dropdown__a:hover {
     }
 
-    .menu2__line1 {
+    .menu-dropdown__line1 {
         height: 41px;
         margin: 0 auto;
     }
 
-    .menu2__line1:hover {
+    .menu-dropdown__line1:hover {
         border-bottom: 2px solid rgba(237, 191, 255, 1);
         background-color: rgba(43, 34, 49, 0.4);
         border-radius: 7px 7px 0 0;
     }
 
-    .menu2__line2 {
+    .menu-dropdown__line2 {
         height: 37px;
         margin: 0 auto;
     }
 
-    .menu2__line2:hover {
+    .menu-dropdown__line2:hover {
         border-bottom: 2px solid #edbfff;
         background-color: rgba(43, 34, 49, 0.4);
     }
 
-    .menu2__line3 {
+    .menu-dropdown__line3 {
         height: 36px;
         margin: 0 auto;
     }
 
-    .menu2__line3:hover {
+    .menu-dropdown__line3:hover {
         border-bottom: 2px solid #edbfff;
         background-color: rgba(43, 34, 49, 0.4);
     }
 
-    .menu2__line4 {
+    .menu-dropdown__line4 {
         height: 38px;
         margin: 0 auto;
     }
 
-    .menu2__line4:hover {
+    .menu-dropdown__line4:hover {
         border-bottom: 2px solid #edbfff;
         background-color: rgba(43, 34, 49, 0.4);
     }
 
-    .menu2__line5 {
+    .menu-dropdown__line5 {
         height: 40px;
         margin: 0 auto;
     }
 
-    .menu2__line5:hover {
+    .menu-dropdown__line5:hover {
         border-bottom: 2px solid #edbfff;
         background-color: rgba(43, 34, 49, 0.4);
     }
 
-    .menu2__line6 {
+    .menu-dropdown__line6 {
         height: 34px;
         margin: 0 auto;
     }
 
-    .menu2__line6:hover {
+    .menu-dropdown__line6:hover {
         border-bottom: 2px solid #edbfff;
         background-color: rgba(43, 34, 49, 0.4);
     }
 
-    .menu2__korr1 {
+    .menu-dropdown__korr1 {
         height: 46px;
         border-radius: 7px 7px 0 0;
     }
 
-    .menu2__korr2 {
+    .menu-dropdown__korr2 {
         height: 42px;
     }
 
-    .menu2__korr3 {
+    .menu-dropdown__korr3 {
         height: 41px;
     }
 
-    .menu2__korr4 {
+    .menu-dropdown__korr4 {
         height: 43px;
     }
 
-    .menu2__korr5 {
+    .menu-dropdown__korr5 {
         height: 44px;
     }
 
-    .menu2__korr6 {
+    .menu-dropdown__korr6 {
         height: 41px;
         border-bottom: none;
         border-radius: 0 0 8px 8px;
     }
 
-    .menu2__akorr {
+    .menu-dropdown__akorr {
         padding-top: 9px;
     }
 }
