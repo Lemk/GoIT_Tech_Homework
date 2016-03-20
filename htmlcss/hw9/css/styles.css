@@ -1,8 +1,8 @@
 @font-face {
     font-family: "LeagueGothicRegular";
     src: url("../fonts/leaguegothic-regular-webfont.woff") format('woff'),
-         url("../fonts/leaguegothic-regular-webfont.ttf") format("truetype"),
-         url("../fonts/leaguegothic-regular-webfont.eot");
+    url("../fonts/leaguegothic-regular-webfont.ttf") format("truetype"),
+    url("../fonts/leaguegothic-regular-webfont.eot");
     font-style: normal;
     font-weight: normal;
 }
@@ -10,7 +10,7 @@
 @font-face {
     font-family: "OpenSansLight";
     src: url("../fonts/opensans-light-webfont.ttf") format("truetype"),
-         url("../fonts/opensans-light-webfont.eot");
+    url("../fonts/opensans-light-webfont.eot");
     font-style: normal;
     font-weight: normal;
 }
@@ -18,7 +18,7 @@
 @font-face {
     font-family: "OpenSansExtraBold";
     src: url("../fonts/OpenSans-ExtraBold-webfont.ttf") format("truetype"),
-         url("../fonts/OpenSans-ExtraBold-webfont.eot");
+    url("../fonts/OpenSans-ExtraBold-webfont.eot");
     font-style: normal;
     font-weight: normal;
 }
@@ -303,7 +303,7 @@ header {
 .start {
     clear: both;
     height: 300px;
-    margin: 120px auto 67px -1px;
+    margin: 120px auto 67px;
     width: 980px;
 }
 
@@ -631,17 +631,67 @@ ul, li {
     float: left;
 }
 
-
 @media screen and (min-width: 960px) {
     .boxcenter {
-        width: 100%;
+
     }
 }
 
 @media screen and (max-width: 960px) and (min-width: 769px) {
     .boxcenter {
-        width: 960px;
+        width: 100%;
     }
+
+    .slider {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .content__up2 {
+        width: 50%;
+    }
+
+    .about__box {
+        width: 100%;
+    }
+
+    .start {
+        margin: 120px auto 67px 0;
+        width: 100%;
+    }
+
+    .start__here {
+        width: 40%;
+    }
+
+    .start__text {
+        width: 85%;
+    }
+
+    .start__update {
+        width: 50%;
+    }
+
+    .comments {
+        height: 398px;
+        width: 100%;
+    }
+
+    .comments__box {
+        width: 100%;
+    }
+
+    .comments__name {
+        width: 30%;
+    }
+
+    .comments__recent {
+        width: 30%;
+    }
+
 }
 
 /*================================================ 320px*/
@@ -880,11 +930,16 @@ ul, li {
     }
 
     .menu {
-        margin: 26px 0px 0px -30px;
+        margin: 6px 0px 0px -30px;
     }
 
-    .menu__unvisible {
+    .menu:hover .menu__hidden {
+        display: block;
+    }
+
+    .menu__hidden {
         display: none;
+        width: 165px;
     }
 
     #menu__footer {
@@ -892,8 +947,8 @@ ul, li {
     }
 
     .menu__item {
-        display: inline-block;
-        float: left;
+        display: inline;
+        float: none;
         height: 25px;
     }
 
@@ -1186,7 +1241,6 @@ ul, li {
         font-family: LeagueGothicRegular;
         font-size: 24px;
         width: 246px;
-        height: 258px;
         position: absolute;
         top: 145px;
         left: 118px;
@@ -1196,17 +1250,12 @@ ul, li {
         box-sizing: border-box;
     }
 
-    .menu-dropdown__box {
-
-    }
-
     .menu-dropdown__li {
         display: inline-block;
         height: 46px;
         width: 100%;
         border-top: 1px solid #523e5a;
         border-bottom: 1px solid #3b2f43;
-
         box-sizing: border-box;
         background-color: rgba(60, 48, 69, 0.8);
     }
@@ -1222,9 +1271,6 @@ ul, li {
         height: 23px;
     }
 
-    .menu-dropdown__a:hover {
-    }
-
     .menu-dropdown__line1 {
         height: 41px;
         margin: 0 auto;
@@ -1233,7 +1279,6 @@ ul, li {
     .menu-dropdown__line1:hover {
         border-bottom: 2px solid rgba(237, 191, 255, 1);
         background-color: rgba(43, 34, 49, 0.4);
-        border-radius: 7px 7px 0 0;
     }
 
     .menu-dropdown__line2 {
@@ -1288,11 +1333,26 @@ ul, li {
 
     .menu-dropdown__korr1 {
         height: 46px;
+        border-radius: 7px;
+    }
+
+    .menu-dropdown__hidden {
+        display: none;
+    }
+
+    .menu-dropdown:hover .menu-dropdown__hidden {
+        display: block;
+        height: 210px;
+        border-radius: 7px 7px 0 0;
+    }
+
+    .menu-dropdown:hover .menu-dropdown__korr1 {
         border-radius: 7px 7px 0 0;
     }
 
     .menu-dropdown__korr2 {
         height: 42px;
+
     }
 
     .menu-dropdown__korr3 {
