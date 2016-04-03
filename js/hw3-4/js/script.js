@@ -19,12 +19,10 @@ var test = {
         var name = document.createElement('h3');
         name.innerHTML = '<p class="text-center">' + this.caption + '</p>';
         parent.appendChild(name);
-
         var form = document.createElement('form');
         form.id = 'test';
+        form.method = 'post';
         parent.appendChild(form);
-
-
         var wrapper = document.createElement('div');
         wrapper.className = 'container';
         return form.appendChild(wrapper);
@@ -58,7 +56,7 @@ var test = {
         var group = this.initElements(parent);
         this.setQuestion(group);
         this.setButton(group);
-    },
-}
+    }
+};
 
 test.show(document.body);
