@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+#millisec {
+    top: -6vw;
+    left: 58vw;
+    position: relative;
+    font-size: 3vw;
+    float: left;
+}
+
+.time {
+    width: 80%;
+}
+
+.btn {
+    width: 20%;
+}
+
+.caption {
+    width: 100%;
+    height: 10%;
+    font-size: 5vw;
+    text-align: center;
+    color: white;
+    margin-bottom: 1%;
+    background: blue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(blue, #194CFF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(blue, #194CFF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(blue, #194CFF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(blue, #194CFF); /* Standard syntax */
+}
+
+.right {
+    width: 100%;
+    height: 5%;
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+    background: #194CFF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#194CFF, blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#194CFF, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#194CFF, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#194CFF, blue); /* Standard syntax */
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#sec {
+    font-size: 15vw;
+    background-color: #E6E9FF;
+}
+
+#start {
+    float: left;
+    width: 100%;
+    background-color: #B8E475;
+    margin: 10px 0 10px 0;
+    border: none;
+}
+
+.myBorder {
+    border-radius: 20px;
+    border: 3px solid #000;
+    height: 88%;
+    display: block;
+    width: 100%;
+    float: left;
+    position: relative;
+    text-align: center;
+    font-size: 2vw;
+}
+
+#clear {
+    float: left;
+    width: 100%;
+    border: none;
+    background-color: #E6E9FF;
+}
