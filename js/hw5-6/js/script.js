@@ -1,6 +1,7 @@
 var timer = {
+    self: null,
     isStart: false,
-    onStart: function (e) {
+    onStart: function () {
         var currHours;
         var currMin;
         var currSec;
@@ -49,7 +50,7 @@ var timer = {
             clearTimeout(self.timer2);
         }
     },
-    onClear: function (e) {
+    onClear: function () {
         clearTimeout(self.timer1);
         clearTimeout(self.timer2);
         self.msec = 0;
