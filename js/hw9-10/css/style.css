@@ -35,7 +35,6 @@ h3 {
 }
 
 .wrapper {
-    margin: 0 auto;
     width: 80%;
 }
 
@@ -46,6 +45,7 @@ h3 {
 select {
     width: 30%;
 }
+
 .niceCheckBox {
     text-align: center;
     color: white;
@@ -85,6 +85,9 @@ input[type=checkbox]:checked + label:after {
     background-position: 0 -17px;
 }
 
+nav {
+    margin-bottom: 20vw;
+}
 #nav {
     width: 50%;
     margin: 0 auto;
