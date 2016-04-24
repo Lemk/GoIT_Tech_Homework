@@ -3,13 +3,14 @@ $(function () {
     var $links = $('.tabs__item');
     $links.on('click', function () {
         var ind = $(this).index();
-        for (var i = 0; i < $links.length; i++) {
+        var i;
+        for (i = 0; i < $links.length; i++) {
             $links[i].className = 'tabs__item';
         }
         $links[ind].className = 'tabs__item tabs__item-select';
 
         var $contentTab = $('.content__tab');
-        for (var i = 0; i < $contentTab.length; i++) {
+        for (i = 0; i < $contentTab.length; i++) {
             $contentTab[i].className = 'content__tab';
             $($contentTab[ind]).css('opacity', '0');
         }
