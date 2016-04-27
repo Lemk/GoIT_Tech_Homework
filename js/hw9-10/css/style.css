@@ -19,6 +19,7 @@ a {
     color: #bbb;
     font-size: 1vw;
 }
+
 body {
     margin: 0 auto;
     width: 100%;
@@ -38,7 +39,7 @@ h3 {
     width: 80%;
 }
 
-.dropbox div{
+.dropbox div {
     margin: auto;
 }
 
@@ -50,6 +51,7 @@ select {
     text-align: center;
     color: white;
 }
+
 .niceCheck {
     width: 17px;
     height: 17px;
@@ -58,6 +60,7 @@ select {
     background: url(../img/checkbox-sprite.png);
 
 }
+
 .niceCheck input {
     display: none;
 }
@@ -66,6 +69,7 @@ input[type=checkbox] {
     position: absolute;
     clip: rect(0, 0, 0, 0);
 }
+
 label {
     cursor: pointer;
 }
@@ -88,69 +92,77 @@ input[type=checkbox]:checked + label:after {
 nav {
     margin-bottom: 20vw;
 }
+
 #nav {
     width: 50%;
     margin: 0 auto;
-    -webkit-box-shadow: 0px 1px 11px 2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 1px 11px 2px rgba(0,0,0,0.75);
-    box-shadow: 0px 1px 11px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 1px 11px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 11px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 11px 2px rgba(0, 0, 0, 0.75);
     height: 43px;
 }
 
-#nav ul{
-    list-style-position:outside;
-    position:relative;
-    -webkit-box-shadow: 0px 1px 11px 2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 1px 11px 2px rgba(0,0,0,0.75);
-    box-shadow: 0px 1px 11px 2px rgba(0,0,0,0.75);
+#nav ul {
+    list-style-position: outside;
+    position: relative;
+    -webkit-box-shadow: 0px 1px 11px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 11px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 11px 2px rgba(0, 0, 0, 0.75);
 }
 
-#nav a{
-    display:block;
-    text-decoration:none;
+#nav a {
+    display: block;
+    text-decoration: none;
     line-height: 40px;
     padding: 0 12px;
     margin: 0 12px;
 }
 
-#nav li:hover{
-    background-color:black;
+#nav li:hover {
+    background-color: black;
 }
 
-#nav li{
-    float:left;
-    position:relative;
-    list-style-type:none;
+#nav li {
+    float: left;
+    position: relative;
+    list-style-type: none;
     height: 43px;
 }
 
 #nav ul {
-    position:absolute;
-    display:none;
-    top: 44px;
+    position: absolute;
+    display: none;
+    top: 43px;
 }
 
-#nav li ul a{
-    width:100px;
-    float:left;
+#nav li ul a {
+    width: 100px;
+    float: left;
 }
 
-#nav ul ul{
-    top:auto;
+#nav ul ul {
+    top: auto;
 }
 
 #nav li ul ul {
-    left:150px;
+    left: 148px;
+}
+
+#nav li.sub-menu > a {
+    background-image: url('../img/arrow-down.png');
+    background-position: right 20px;
+    background-repeat: no-repeat;
 }
 
 #nav li:hover ul ul,
 #nav li:hover ul ul ul,
-#nav li:hover ul ul ul ul{
-    display:none;
+#nav li:hover ul ul ul ul {
+    display: none;
 }
+
 #nav li:hover ul,
 #nav li li:hover ul,
 #nav li li li:hover ul,
-#nav li li li li:hover ul{
-    display:block;
+#nav li li li li:hover ul {
+    display: block;
 }

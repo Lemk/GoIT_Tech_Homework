@@ -1,8 +1,9 @@
 $(function () {
     $(".dropbox__item").change(function () {
         var color = $(this).val();
-        $('body').removeClass();
-        $('body').addClass(color);
+        var $body = $('body');
+        $body.removeClass();
+        $body.addClass(color);
     });
 });
 
