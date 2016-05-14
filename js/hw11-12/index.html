@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery Carusel Plug-in</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="js/tmpl.js"></script>
+    <script src="js/jquery.mycarousel.js"></script>
+
+    <script src="js/script.js"></script>
+</head>
+<body>
+<script type="text/html" id="carousel">
+
+    <h3><%=caption%></h3>
+    <div class="wrapper">
+        <div class=<%=leftClass%>><span><%=leftCaption%></span></div>
+        <div class=<%=containerClass%>>
+            <ul class=<%=listClass%>>
+                <% for (var i = 0; i < data.imgs.length; i++){ %>
+                <li class="carousel-element">
+                    <img src="img/<%=data.imgs[i].img%>" alt="">
+
+                    <p><%=data.imgs[i].caption%></p>
+                </li>
+
+                <% } %>
+            </ul>
+        </div>
+        <div class=<%=rightClass%>><span><%=rightCaption%></span></div>
+    </div>
+</script>
+</body>
+</html>
