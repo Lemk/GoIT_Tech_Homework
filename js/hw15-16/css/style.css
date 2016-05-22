@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, footer, #results {
+    display: block;
+    margin: 5% auto 0;
+    text-align: center;
+}
+
+#flickr {
+    background: url("../img/Flick.png") no-repeat;
+    background-size: 343px 92px;
+    height: 92px;
+    width: 343px;
+    text-align: center;
+    margin: 0 auto 50px;
+}
+
+.logo-subtext {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    left: 285px;
+    position: relative;
+    top: 96px;
+    text-align: left;
+}
+
+#search {
+    text-align: center;
+}
