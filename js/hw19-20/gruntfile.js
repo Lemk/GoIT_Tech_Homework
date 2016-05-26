@@ -1,5 +1,15 @@
 module.exports = function (grunt) {
     grunt.initConfig({
+        sass: {                              // Task
+            dist: {                            // Target
+                options: {                       // Target options
+                    style: 'expanded'
+                },
+                files: {                         // Dictionary of files
+                    'css/src/styles.css': ['css/src/styles.scss']
+                }
+            }
+        },
         concat: {
             options: {
                 separator: '\n'
@@ -27,11 +37,20 @@ module.exports = function (grunt) {
                 }
 
             }
+        },
+        watch: {
+            sass: {
+                // We watch and compile sass files as normal but don't live reload here
+                files: ['css/src/*.scss'],
+                tasks: ['sass'],
+            }
         }
     });
+    grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
-    grunt.registerTask('default', ['concat', 'uglify', 'cssmin']);
+    grunt.registerTask('default', ['sass', 'concat', 'uglify', 'cssmin']);
 };
