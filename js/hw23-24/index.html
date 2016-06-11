@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>MVC</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script data-main="js/app" src="js/require.js"></script>
+</head>
+<body>
+<script type="text/template" id="wrapper-template">
+    <div class="wrapper">
+        <ul class="item-list"></ul>
+        <div class="controlls">
+            <input type="text" class="item-value">
+            <button class="item-add">Add</button>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="list-template">
+    <% for(var i = 0; i < data.length; i++){ %>
+    <li><span class="num"><%= (i+1) %></span>
+
+        <p class="string"><%= data[i] %></p><span class="item-delete" data-value="<%= data[i] %>"> X </span> <span
+                class="item-edit" data-value="<%= data[i] %>" editing=""> E </span></li>
+    <% }; %>
+</script>
+
+</body>
+</html>
