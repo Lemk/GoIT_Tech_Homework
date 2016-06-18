@@ -1,0 +1,61 @@
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  $wrapper-width: 768px;
+  $content-width: 768px;
+  .wrapper {
+    width: $wrapper-width;
+    margin: 0 auto;
+  }
+  .content {
+    width: $content-width;
+    margin: 0 auto;
+    background: white;
+  }
+  .up {
+    background-position-x: -335px;
+  }
+  .up__name {
+    top: 50px;
+    left: 50px;
+  }
+  .up__login {
+    top: 25px;
+    left: 564px;
+  }
+  .up__signup {
+    top: 0px;
+    left: 630px;
+  }
+  .sliders {
+    width: 97%;
+  }
+  .sliders__slider {
+    margin-right: 10px;
+  }
+  .sliders__last, .sliders__slider {
+    width: 236px;
+  }
+  .sliders__left1, .sliders__left2, .sliders__left3 {
+    margin-right: 135px;
+  }
+  .sliders__box {
+    width: 196px;
+  }
+  .articles__article {
+    width: 48%;
+  }
+  .articles {
+    height: 550px;
+  }
+  .articles__text {
+    padding: 20px 100px;
+  }
+  .pictures {
+    height: 1080px;
+  }
+  .grid-item {
+    margin: 5px;
+  }
+  .footer {
+    width: 710px;
+  }
+}
